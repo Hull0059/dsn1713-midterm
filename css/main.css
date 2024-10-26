@@ -3,14 +3,35 @@
 /* Set custom variables here */
 :root{
   --custom-variables:#ffffff ;
+  --primary-bg-color:green;
+
+
+  /* Text Size */
+  --heading-font-size:2.5rem;
+  --paragraph-font-size:1rem;
+ 
+
+
+  /* Buttons */
+  --button-primary-bg:rgb(37, 74, 37);
+  --button-primary-text: white;
 }
 
 
 
 
-.navbar-brand {
+.navbar-brand{
   color: #F6F3ED;
+  padding-top: 75px;
+  
+  
 }
+
+.logo{
+margin-left: 200px;
+   
+}
+
 
 body {
   font-family: "Sarala", sans-serif;
@@ -20,18 +41,57 @@ h1, h2, h3 {
   font-family: "Merriweather", serif;
 }
 
+h1{
+  font-size: var(--heading-font-size);
+  margin-left: 150px;
+  margin-right:20px;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 400px;
+  padding-top: 90px;
+
+}
+
+.p-primary{
+  font-size: var(--paragraph-font-size);
+  margin-left: 200px;
+  margin-right:20px;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 400px;
+}
+
+
+
+
 #hero {
   height: 800px;
   background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size:cover;
+ 
 }
 
 #hero .d-flex {
   height: 800px;
 }
+
+
+.btn-primary {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px; 
+}
+
+.button-container{
+  display: flex;
+  justify-content: center; 
+}
+
 
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');

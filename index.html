@@ -9,27 +9,36 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    
 
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <div class="logo"> 
+            <img src="images/daily-dish-logo.svg" alt="Logo" width="20" height="20"   ></a>
+          <a class="navbar-brand" href="#">Daily Dish </a>
+         
+          </div>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto me-5">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Menu Plans</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">How it Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Our Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -44,9 +53,12 @@
         <div> 
           <div>
             <div>
-              <h1>Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
-              <p>With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
-              <button>Get Started Today and Save Time!</button>
+              <h1 class="h1">Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
+              <p class="p-primary">With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep
+                , grocery shopping, or cleanup.</p>
+              <div class="button-container">
+              <button class="btn-primary position-relative py-2 px-4 ">Get Started Today and Save Time!</button>
+            </div>
             </div>
           </div>
         </div>
@@ -79,7 +91,7 @@
               <p>Our easy-to-follow recipes mean you’ll have a mouthwatering, home-cooked meal ready in under 30 minutes—no kitchen skills required!</p>
             </div>
           </div>
-          <button>Pick Your Plan</button>
+          <button class="btn-secondary">Pick Your Plan</button>
         </div>
       </section>
       
