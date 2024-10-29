@@ -9,12 +9,15 @@
   /* Text Size */
   --heading-font-size:2.5rem;
   --paragraph-font-size:1rem;
- 
+
 
 
   /* Buttons */
-  --button-primary-bg:rgb(37, 74, 37);
+  --button-primary-bg:rgb(33, 75, 33);
   --button-primary-text: white;
+  --button-secondary-bg:rgb(33, 75, 33);
+  --button-secondary-text: white;
+
 }
 
 
@@ -90,6 +93,133 @@ h1{
 .button-container{
   display: flex;
   justify-content: center; 
+}
+
+.btn-secondary{
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px; 
+}
+
+.secondary-button-container{
+    display: flex;
+    justify-content: center; 
+    margin-top: 70px;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  text-align: center;
+  justify-content:center ;
+  margin-top:90px;
+}
+
+.grid-element-1 {
+  grid-column: 1;
+}
+
+.grid-element-2 {
+  grid-column: 2;
+}
+
+.grid-element-3 {
+  grid-column: 3;
+}
+
+
+.intro{
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.family{
+  height: 450px;
+  object-fit:cover;
+  padding-left: 100px;
+  
+
+}
+.smart{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style:none;
+
+}
+
+.second-intro{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list{
+  list-style:none;
+  padding-left: 0;
+  margin-right: 70px;
+}
+
+.customers-intro{
+  color:white;
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 50px;
+
+}
+
+.customer-container{
+  height: 500px;
+  background-color: rgb(45, 67, 45);
+  padding-bottom: 0;
+ 
+}
+.customer{
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+.customers{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  text-align: center;
+  justify-content:center ;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.blockquote{
+  margin-bottom: 0;
+}
+
+.figcaption{
+  font-size: small;
+    color: white; /* Set a custom color */
+    text-align: center; /* Center-align the text */
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.questions{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.accordion{
+  justify-content: center;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+
 }
 
 
