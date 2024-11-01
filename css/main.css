@@ -18,6 +18,9 @@
   --button-secondary-bg:rgb(47, 78, 47);
   --button-secondary-text: white;
 
+  /* questions background color */
+  --bg-color:#F6F3ED;
+
 }
 
 
@@ -190,6 +193,15 @@ section:not(#hero):not(#cta){
     padding: 100px 0;
   }
 
+
+  .ready{
+    padding-left: 80px;
+    padding-right: 90px;
+    margin-bottom: 200px;
+    margin-left: 230px;
+    margin-right: 300px;
+  }
+
   .customers{
     display: grid;
     grid-template-columns: repeat(1fr , 3);
@@ -220,7 +232,14 @@ section:not(#hero):not(#cta){
 .container{
   display: grid;
 
-}.accordion{
+}
+
+.acc{
+  background-color: var(--bg-color);
+}
+
+
+.accordion{
   justify-content: center;
   text-align: center;
   margin-left: 300px;
